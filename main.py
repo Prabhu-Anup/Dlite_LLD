@@ -214,6 +214,9 @@ class ConsoleApp:
                 print(Messages.INVALID_CHOICE)
                 input("\nPress Enter to continue...")
 
-if __name__ == "__main__":
-    app = ConsoleApp()
-    app.run()
+# if __name__ == "__main__":
+#     app = ConsoleApp()
+#     app.run()
+
+app = ConsoleApp()
+app.run()
